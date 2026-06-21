@@ -4,6 +4,9 @@ A web application that analyses pharmaceutical marketing text against the **UK A
 
 Built as a portfolio project to demonstrate production-grade LLM orchestration with LangChain and Claude API.
 
+**Live demo:** https://pharma-check-ai-self.vercel.app
+**API:** https://pharma-check-ai.onrender.com
+
 ---
 
 ## What it does
@@ -20,7 +23,7 @@ Paste any pharmaceutical marketing copy into the tool and receive a structured c
 
 | Layer | Technology |
 |---|---|
-| LLM | Claude API (`claude-haiku-4-5`) |
+| LLM | Claude API (`claude-opus-4-6`) |
 | Orchestration | LangChain (LCEL chain + `with_structured_output`) |
 | Schema enforcement | Pydantic v2 |
 | Backend | FastAPI + Uvicorn |
