@@ -7,6 +7,16 @@ body {
   min-height: 100vh;
 }
 
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
 /* ── Header ── */
 .header {
   background: #0f2a4a;
@@ -48,6 +58,7 @@ body {
 /* ── Main ── */
 .main {
   max-width: 860px;
+  width: 100%;
   margin: 40px auto;
   padding: 0 24px;
   display: flex;
